@@ -8,7 +8,7 @@ fs.exists('./images', function(exists) {
 	if (!exists) {
 		fs.mkdir('./images', function(err) {
 			if (err) throw err;
-			console.log('创建目录成功');
+			console.log('创建目录成功！！！');
 		});
 	}
 });
